@@ -1,0 +1,84 @@
+
+/*menuページのメインビジュアル*/
+.menu-img{margin-top: 100px;}
+
+.select1 {
+    width: 800px;
+    height: 600px;}
+
+.select2 {
+    width: 800px;
+    height: 600px;}
+
+.select3 {
+    width: 800px;
+    height: 600px;}
+
+
+
+/*ここからスライドメニューについて*/
+:root {
+    --light-green: #d5edeb;
+    --brown: #403632;}
+
+/*開くボタン*/
+.btn-menu{
+ position: fixed;
+right: 1rem;
+top: 1rem;
+z-index: 4;
+padding: .5rem 1rem;
+border: 1px solid var(--brown);
+border-radius: 50%;
+height: 4rem;
+width:  4rem;
+}
+
+/*ここでバッテンを*/
+.btn-menu svg{
+fill: var(--brown);
+margin-top: .25rem;
+height: 2rem;
+width:  2rem;
+    }
+
+    /* 閉じボタン*/
+    #menu-close {
+        border: 1px solid var(--light-green);
+    }
+    #menu-close svg {
+        fill: var(--light-green);
+    }
+
+
+/*メニューパネル*/
+#menu-panel{
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
+    z-index: 4;
+    padding: .8rem 2rem 2rem;
+    width: max(32vw, 20rem);
+height: 100vh;
+background-color: var(--brown); 
+box-shadow: 0 0 2rem var(--brown);
+/*↑の書き方はcss変数を利用したものなので、それ以前に定義したbrownからプラマイでどうか、という書き方、だから機能しなかった*/
+
+font-family: var(--oswald-font);
+translate: 100vw;
+}
+
+.menu-list{
+list-style: none;
+}
+
+.menu-list li{
+  margin: 1.5rem 0;
+    }
+
+    .menu-list a{
+    color: var(--light-green);
+    text-decoration: none;
+    font-size: 1rem;
+    }  
+ 

@@ -30,6 +30,6 @@ if($val['id'] != '') {
     header('Location: menu.php');
 } else {
     //Login失敗時(Logout経由)
-    header('Location: login.php');
+    header('Location: login-input.php');
 }
 exit();

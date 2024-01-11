@@ -5,6 +5,8 @@ loginCheck();
 ?>
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +19,12 @@ loginCheck();
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/list.css">
 
+
+
 </head>
 
 <body>
+
 
 <!-- ヘッダー画像 -->
 <div class="header">
@@ -56,12 +61,28 @@ loginCheck();
 
 <!-- 求人情報　jsから生成されて下記divに入る -->
 
-<div class = list >
+<div class = column-a >
 <div id = "list1"></div>
 <br>
 <div id = "list2"></div>
 <br>
 <div id = "list3"></div>
+</div>
+
+<div class = column-b >
+<div id = "list4"></div>
+<br>
+<div id = "list5"></div>
+<br>
+<div id = "list6"></div>
+</div>
+
+<div class = column-c >
+<div id = "list7"></div>
+<br>
+<div id = "list8"></div>
+<br>
+<div id = "list9"></div>
 </div>
 
 

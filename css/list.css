@@ -4,16 +4,31 @@ margin-bottom: 80px;
 }
 
 
-.list {
+.column-a {
     display: inline-block;
 }
-.list {
+.column-a {
     display: flex;
 }
 img {
     margin-left: 30px;
 }
 
+
+.column-b {
+    display: inline-block;
+}
+.column-b {
+    display: flex;
+}
+
+
+.column-c {
+    display: inline-block;
+}
+.column-c {
+    display: flex;
+}
 
 
 
